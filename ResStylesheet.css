@@ -1,164 +1,148 @@
-@media (max-width: 1000px){
-
-
-
-.header ul {
+@media (max-width: 1000px) {
+  .header ul {
     padding-left: 320px;
     font-size: 10px;
-}
+  }
 
-.about-container{
-padding-bottom: 40px;
-padding-right: -50px;
-width: 600px;
-}
+  .about-container {
+    padding-bottom: 40px;
+    padding-right: -50px;
+    width: 600px;
+  }
 
-.about img{
-width: 298px;
-height: 464px;
-margin-top: -80px;
-margin-right: 55px;
-
-}
-.about-container h1{
+  .about img {
+    width: 298px;
+    height: 464px;
+    margin-top: -80px;
+    margin-right: 55px;
+  }
+  .about-container h1 {
     margin-left: 190px;
     font-size: 35px;
-    
-}
+  }
 
-.about-container p{
+  .about-container p {
     margin-left: 190px;
     font-size: 20px;
-    
-}
+  }
 
-.deskripsi{
+  .deskripsi {
     font-size: 15px;
-}
+  }
 
-.tempat-kerja{
+  .tempat-kerja {
     font-size: 20px;
-}
+  }
 
-.jabatan{
+  .jabatan {
     font-size: 20px;
-}
+  }
 
-.experience-container li{
+  .experience-container li {
     width: 17%;
-}
+  }
 
-.projects img {
+  .projects img {
     border-radius: 40px;
     margin: 15px 80px;
     height: 234px;
     width: 273px;
-    }
+  }
 
-    .projects {
+  .projects {
     height: 1100px;
     background: rgba(124, 115, 230, 0.8);
-    }
-
+  }
 }
 
-@media (max-width: 670px){
-.about-container p{
+@media (max-width: 670px) {
+  .about-container p {
     margin-left: 250px;
     font-size: 15px;
-    
-}
+  }
 
+  .header li {
+    display: none;
+  }
 
-.header li {
-display: none;
-}
+  .menu {
+    display: block;
+    width: 7%;
+    float: right;
+    /* text-align: right; */
+    /* margin-left: 550px; */
+    padding: 25px 25px;
+  }
 
-
-.menu {
-
-display: block;
-width:7%;
-float:right;
-/* text-align: right; */
-/* margin-left: 550px; */
-padding: 25px 25px;
-
-}
-
-.fa-bars{
+  .fa-bars {
     width: 50px;
-}
+  }
 
-.about-container{
+  .about-container {
     margin-top: 40px;
     margin-bottom: 50px;
     padding-right: 20px;
     width: 550px;
     margin-right: -60px;
-}
+  }
 
-.about img{
-width: 145px;
-height: 238px;
-float: none;
-margin-top: 60px;
-margin-left: 175px;
-}
+  .about img {
+    width: 145px;
+    height: 238px;
+    float: none;
+    margin-top: 60px;
+    margin-left: 175px;
+  }
 
-.about-container h1{
+  .about-container h1 {
     margin-left: 160px;
     font-size: 35px;
-    
-}
+  }
 
-.about-container p {
+  .about-container p {
     margin-left: 160px;
     font-size: 18px;
-    
-}
+  }
 
-.about-container li{
+  .about-container li {
     float: none;
-}
+  }
 
-.experience-container li{
+  .experience-container li {
     float: none;
     width: 67%;
     text-align: center;
-}
+  }
 
-.experience-container{
+  .experience-container {
     padding-bottom: 50px;
-}
+  }
 
-.deskripsi{
+  .deskripsi {
     font-size: 14px;
-}
+  }
 
-.tempat-kerja {
+  .tempat-kerja {
     font-size: 16px;
-}
+  }
 
-.jabatan{
+  .jabatan {
     font-size: 20px;
-}
+  }
 
-.projects img {
+  .projects img {
     width: 145px;
     height: 112px;
     margin: 13px auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
-}
-.box {
+  }
+  .box {
     margin: 0 auto;
-}
+  }
 
-.social-2 img{
-    margin:10px 30px;
-    
+  .social-2 img {
+    margin: 10px 30px;
+  }
 }
-}
-
