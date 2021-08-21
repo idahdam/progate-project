@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   background: linear-gradient(180deg, #b0d8e1 0%, rgba(230, 244, 248, 0) 100%);
   z-index: 1;
@@ -12,6 +16,8 @@ body {
 .header {
   height: 95px;
   width: 100%;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
   background-color: #7c73e6;
   padding: 0px 0px;
   position: sticky;
@@ -27,7 +33,7 @@ body {
 }
 
 .header ul {
-  padding-left: 600px;
+  padding-left: 550px;
 }
 .header li {
   float: left;
@@ -49,31 +55,29 @@ body {
   margin-top: 200px;
   background-color: #7c73e6;
   border-radius: 143px;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  padding-right: 60px;
-  width: 900px;
-  margin-left: -130px;
+  padding: 70px 0;
+  width: 700px;
+  margin-left: 100px;
 }
 
 .about-container h1 {
-  margin-left: 250px;
   font-size: 64px;
+  text-align: center;
   font-family: "Cabin", sans-serif;
 }
 
 .about-container p {
-  margin-left: 250px;
   font-size: 25px;
+  padding: 25px;
   font-family: "Cabin", sans-serif;
 }
 
 .about img {
   border-radius: 200px;
   float: right;
-  margin-top: -100px;
-  width: 448px;
-  height: 656px;
+  margin-top: 0px;
+  width: auto;
+  height: 500px;
   margin-right: 100px;
 }
 
@@ -84,6 +88,7 @@ body {
   text-align: center;
   width: 100%;
   margin-top: 250px;
+  border-radius: 200px;
   font-family: "Cabin", sans-serif;
 }
 
@@ -93,8 +98,8 @@ body {
   float: left;
   font-size: 25px;
   width: 23%;
-  margin-right: 50px;
-  margin-left: 50px;
+  text-align: justify;
+  margin: 0 40px;
 }
 
 .tempat-kerja {
@@ -139,6 +144,8 @@ body {
 .footer {
   margin-top: 100px;
   height: 70px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
   background-color: #7c73e6;
   bottom: 0;
   font-family: "Cabin", sans-serif;
@@ -154,9 +161,12 @@ body {
   color: 000000;
   text-align: center;
 }
+
 .projects {
+  border-radius: 200px;
   height: 944px;
   background: rgba(124, 115, 230, 0.8);
+  padding-bottom: 50px;
 }
 
 .projects h2 {
@@ -170,14 +180,24 @@ body {
 }
 
 .projects img {
+  transition: 0.3s ease-in;
+  align-items: center;
   border-radius: 40px;
-  margin: 50px 100px;
+  margin: 50px 50px;
   height: 234;
-  width: 273;
+  object-fit: cover;
+  width: 234;
 }
 
 .projects img:hover {
+  transition: 0.3s ease-in;
   height: 254px;
   width: 293px;
   transition: 0.3;
+}
+
+.projects-items {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
 }
