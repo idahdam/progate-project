@@ -73,12 +73,18 @@ body {
 }
 
 .about img {
+  transition: 0.3s ease-in;
   border-radius: 200px;
   float: right;
   margin-top: 0px;
   width: auto;
   height: 500px;
   margin-right: 100px;
+}
+
+.about img:hover {
+  transition: 0.3s ease-in;
+  transform: scale(1.1);
 }
 
 .experience-container {
@@ -191,9 +197,7 @@ body {
 
 .projects img:hover {
   transition: 0.3s ease-in;
-  height: 254px;
-  width: 293px;
-  transition: 0.3;
+  transform: scale(1.1);
 }
 
 .projects-items {
